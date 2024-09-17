@@ -1,0 +1,32 @@
+C:\Users\alext\source\repos\Square\bin\Debug\net8.0-windows\Square.exe
+C:\Users\alext\source\repos\Square\bin\Debug\net8.0-windows\Square.deps.json
+C:\Users\alext\source\repos\Square\bin\Debug\net8.0-windows\Square.runtimeconfig.json
+C:\Users\alext\source\repos\Square\bin\Debug\net8.0-windows\Square.dll
+C:\Users\alext\source\repos\Square\bin\Debug\net8.0-windows\Square.pdb
+C:\Users\alext\source\repos\Square\obj\Debug\net8.0-windows\Square.Form1.resources
+C:\Users\alext\source\repos\Square\obj\Debug\net8.0-windows\Square.csproj.GenerateResource.cache
+C:\Users\alext\source\repos\Square\obj\Debug\net8.0-windows\Square.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alext\source\repos\Square\obj\Debug\net8.0-windows\Square.AssemblyInfoInputs.cache
+C:\Users\alext\source\repos\Square\obj\Debug\net8.0-windows\Square.AssemblyInfo.cs
+C:\Users\alext\source\repos\Square\obj\Debug\net8.0-windows\Square.csproj.CoreCompileInputs.cache
+C:\Users\alext\source\repos\Square\obj\Debug\net8.0-windows\Square.dll
+C:\Users\alext\source\repos\Square\obj\Debug\net8.0-windows\refint\Square.dll
+C:\Users\alext\source\repos\Square\obj\Debug\net8.0-windows\Square.pdb
+C:\Users\alext\source\repos\Square\obj\Debug\net8.0-windows\Square.genruntimeconfig.cache
+C:\Users\alext\source\repos\Square\obj\Debug\net8.0-windows\ref\Square.dll
+D:\My Works\C#\C#_Practice\Windows Forms Apps (Local)\Square\bin\Debug\net8.0-windows\Square.exe
+D:\My Works\C#\C#_Practice\Windows Forms Apps (Local)\Square\bin\Debug\net8.0-windows\Square.deps.json
+D:\My Works\C#\C#_Practice\Windows Forms Apps (Local)\Square\bin\Debug\net8.0-windows\Square.runtimeconfig.json
+D:\My Works\C#\C#_Practice\Windows Forms Apps (Local)\Square\bin\Debug\net8.0-windows\Square.dll
+D:\My Works\C#\C#_Practice\Windows Forms Apps (Local)\Square\bin\Debug\net8.0-windows\Square.pdb
+D:\My Works\C#\C#_Practice\Windows Forms Apps (Local)\Square\obj\Debug\net8.0-windows\Square.Form1.resources
+D:\My Works\C#\C#_Practice\Windows Forms Apps (Local)\Square\obj\Debug\net8.0-windows\Square.csproj.GenerateResource.cache
+D:\My Works\C#\C#_Practice\Windows Forms Apps (Local)\Square\obj\Debug\net8.0-windows\Square.GeneratedMSBuildEditorConfig.editorconfig
+D:\My Works\C#\C#_Practice\Windows Forms Apps (Local)\Square\obj\Debug\net8.0-windows\Square.AssemblyInfoInputs.cache
+D:\My Works\C#\C#_Practice\Windows Forms Apps (Local)\Square\obj\Debug\net8.0-windows\Square.AssemblyInfo.cs
+D:\My Works\C#\C#_Practice\Windows Forms Apps (Local)\Square\obj\Debug\net8.0-windows\Square.csproj.CoreCompileInputs.cache
+D:\My Works\C#\C#_Practice\Windows Forms Apps (Local)\Square\obj\Debug\net8.0-windows\Square.dll
+D:\My Works\C#\C#_Practice\Windows Forms Apps (Local)\Square\obj\Debug\net8.0-windows\refint\Square.dll
+D:\My Works\C#\C#_Practice\Windows Forms Apps (Local)\Square\obj\Debug\net8.0-windows\Square.pdb
+D:\My Works\C#\C#_Practice\Windows Forms Apps (Local)\Square\obj\Debug\net8.0-windows\Square.genruntimeconfig.cache
+D:\My Works\C#\C#_Practice\Windows Forms Apps (Local)\Square\obj\Debug\net8.0-windows\ref\Square.dll

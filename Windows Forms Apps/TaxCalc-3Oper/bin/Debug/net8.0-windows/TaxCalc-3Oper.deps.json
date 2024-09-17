@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "TaxCalc-3Oper/1.0.0": {
+        "runtime": {
+          "TaxCalc-3Oper.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TaxCalc-3Oper/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

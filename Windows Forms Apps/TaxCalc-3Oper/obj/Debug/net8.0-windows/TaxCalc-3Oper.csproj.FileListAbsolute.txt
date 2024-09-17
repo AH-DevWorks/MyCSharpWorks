@@ -1,0 +1,16 @@
+C:\Users\MSI\source\repos\TaxCalc-3Oper\bin\Debug\net8.0-windows\TaxCalc-3Oper.exe
+C:\Users\MSI\source\repos\TaxCalc-3Oper\bin\Debug\net8.0-windows\TaxCalc-3Oper.deps.json
+C:\Users\MSI\source\repos\TaxCalc-3Oper\bin\Debug\net8.0-windows\TaxCalc-3Oper.runtimeconfig.json
+C:\Users\MSI\source\repos\TaxCalc-3Oper\bin\Debug\net8.0-windows\TaxCalc-3Oper.dll
+C:\Users\MSI\source\repos\TaxCalc-3Oper\bin\Debug\net8.0-windows\TaxCalc-3Oper.pdb
+C:\Users\MSI\source\repos\TaxCalc-3Oper\obj\Debug\net8.0-windows\TaxCalc_3Oper.Form1.resources
+C:\Users\MSI\source\repos\TaxCalc-3Oper\obj\Debug\net8.0-windows\TaxCalc-3Oper.csproj.GenerateResource.cache
+C:\Users\MSI\source\repos\TaxCalc-3Oper\obj\Debug\net8.0-windows\TaxCalc-3Oper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MSI\source\repos\TaxCalc-3Oper\obj\Debug\net8.0-windows\TaxCalc-3Oper.AssemblyInfoInputs.cache
+C:\Users\MSI\source\repos\TaxCalc-3Oper\obj\Debug\net8.0-windows\TaxCalc-3Oper.AssemblyInfo.cs
+C:\Users\MSI\source\repos\TaxCalc-3Oper\obj\Debug\net8.0-windows\TaxCalc-3Oper.csproj.CoreCompileInputs.cache
+C:\Users\MSI\source\repos\TaxCalc-3Oper\obj\Debug\net8.0-windows\TaxCalc-3Oper.dll
+C:\Users\MSI\source\repos\TaxCalc-3Oper\obj\Debug\net8.0-windows\refint\TaxCalc-3Oper.dll
+C:\Users\MSI\source\repos\TaxCalc-3Oper\obj\Debug\net8.0-windows\TaxCalc-3Oper.pdb
+C:\Users\MSI\source\repos\TaxCalc-3Oper\obj\Debug\net8.0-windows\TaxCalc-3Oper.genruntimeconfig.cache
+C:\Users\MSI\source\repos\TaxCalc-3Oper\obj\Debug\net8.0-windows\ref\TaxCalc-3Oper.dll
