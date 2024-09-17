@@ -1,0 +1,16 @@
+C:\Users\MSI\source\repos\ETC\bin\Debug\net8.0-windows\ETC.exe
+C:\Users\MSI\source\repos\ETC\bin\Debug\net8.0-windows\ETC.deps.json
+C:\Users\MSI\source\repos\ETC\bin\Debug\net8.0-windows\ETC.runtimeconfig.json
+C:\Users\MSI\source\repos\ETC\bin\Debug\net8.0-windows\ETC.dll
+C:\Users\MSI\source\repos\ETC\bin\Debug\net8.0-windows\ETC.pdb
+C:\Users\MSI\source\repos\ETC\obj\Debug\net8.0-windows\etc.Form1.resources
+C:\Users\MSI\source\repos\ETC\obj\Debug\net8.0-windows\ETC.csproj.GenerateResource.cache
+C:\Users\MSI\source\repos\ETC\obj\Debug\net8.0-windows\ETC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MSI\source\repos\ETC\obj\Debug\net8.0-windows\ETC.AssemblyInfoInputs.cache
+C:\Users\MSI\source\repos\ETC\obj\Debug\net8.0-windows\ETC.AssemblyInfo.cs
+C:\Users\MSI\source\repos\ETC\obj\Debug\net8.0-windows\ETC.csproj.CoreCompileInputs.cache
+C:\Users\MSI\source\repos\ETC\obj\Debug\net8.0-windows\ETC.dll
+C:\Users\MSI\source\repos\ETC\obj\Debug\net8.0-windows\refint\ETC.dll
+C:\Users\MSI\source\repos\ETC\obj\Debug\net8.0-windows\ETC.pdb
+C:\Users\MSI\source\repos\ETC\obj\Debug\net8.0-windows\ETC.genruntimeconfig.cache
+C:\Users\MSI\source\repos\ETC\obj\Debug\net8.0-windows\ref\ETC.dll
