@@ -38,6 +38,7 @@
             timer1 = new System.Windows.Forms.Timer(components);
             label3TimeNow = new Label();
             timer2 = new System.Windows.Forms.Timer(components);
+            bt3Snooze = new Button();
             SuspendLayout();
             // 
             // dateTimePicker1
@@ -83,7 +84,7 @@
             // button1Set
             // 
             button1Set.Font = new Font("Microsoft JhengHei UI", 10.0995474F, FontStyle.Regular, GraphicsUnit.Point, 136);
-            button1Set.Location = new Point(394, 463);
+            button1Set.Location = new Point(480, 463);
             button1Set.Name = "button1Set";
             button1Set.Size = new Size(173, 53);
             button1Set.TabIndex = 4;
@@ -95,9 +96,9 @@
             // 
             bt2Reset.Font = new Font("Microsoft JhengHei UI", 10.0995474F, FontStyle.Regular, GraphicsUnit.Point, 136);
             bt2Reset.ForeColor = Color.FromArgb(64, 64, 64);
-            bt2Reset.Location = new Point(77, 463);
+            bt2Reset.Location = new Point(281, 463);
             bt2Reset.Name = "bt2Reset";
-            bt2Reset.Size = new Size(173, 53);
+            bt2Reset.Size = new Size(129, 53);
             bt2Reset.TabIndex = 5;
             bt2Reset.Text = "重置";
             bt2Reset.UseVisualStyleBackColor = true;
@@ -122,11 +123,25 @@
             // 
             timer2.Tick += timer2_Tick;
             // 
+            // bt3Snooze
+            // 
+            bt3Snooze.Enabled = false;
+            bt3Snooze.Font = new Font("Microsoft JhengHei UI", 10.0995474F, FontStyle.Regular, GraphicsUnit.Point, 136);
+            bt3Snooze.ForeColor = Color.Gray;
+            bt3Snooze.Location = new Point(32, 463);
+            bt3Snooze.Name = "bt3Snooze";
+            bt3Snooze.Size = new Size(173, 53);
+            bt3Snooze.TabIndex = 7;
+            bt3Snooze.Text = "延後提醒";
+            bt3Snooze.UseVisualStyleBackColor = true;
+            bt3Snooze.Click += bt3Postpone_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(17F, 36F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(677, 553);
+            Controls.Add(bt3Snooze);
             Controls.Add(label3TimeNow);
             Controls.Add(bt2Reset);
             Controls.Add(button1Set);
@@ -152,5 +167,6 @@
         private System.Windows.Forms.Timer timer1;
         private Label label3TimeNow;
         private System.Windows.Forms.Timer timer2;
+        private Button bt3Snooze;
     }
 }
