@@ -14,3 +14,20 @@ D:\My Works\C#\C#_Practice\Windows Forms Apps (Local)\RandomPoker\obj\Debug\net8
 D:\My Works\C#\C#_Practice\Windows Forms Apps (Local)\RandomPoker\obj\Debug\net8.0-windows\RandomPoker.pdb
 D:\My Works\C#\C#_Practice\Windows Forms Apps (Local)\RandomPoker\obj\Debug\net8.0-windows\RandomPoker.genruntimeconfig.cache
 D:\My Works\C#\C#_Practice\Windows Forms Apps (Local)\RandomPoker\obj\Debug\net8.0-windows\ref\RandomPoker.dll
+D:\My Works\C#\C#_Practice\GitRepos\Windows Forms Apps\RandomPoker\bin\Debug\net8.0-windows\RandomPoker.exe
+D:\My Works\C#\C#_Practice\GitRepos\Windows Forms Apps\RandomPoker\bin\Debug\net8.0-windows\RandomPoker.deps.json
+D:\My Works\C#\C#_Practice\GitRepos\Windows Forms Apps\RandomPoker\bin\Debug\net8.0-windows\RandomPoker.runtimeconfig.json
+D:\My Works\C#\C#_Practice\GitRepos\Windows Forms Apps\RandomPoker\bin\Debug\net8.0-windows\RandomPoker.dll
+D:\My Works\C#\C#_Practice\GitRepos\Windows Forms Apps\RandomPoker\bin\Debug\net8.0-windows\RandomPoker.pdb
+D:\My Works\C#\C#_Practice\GitRepos\Windows Forms Apps\RandomPoker\obj\Debug\net8.0-windows\RandomPoker.Form1.resources
+D:\My Works\C#\C#_Practice\GitRepos\Windows Forms Apps\RandomPoker\obj\Debug\net8.0-windows\RandomPoker.csproj.GenerateResource.cache
+D:\My Works\C#\C#_Practice\GitRepos\Windows Forms Apps\RandomPoker\obj\Debug\net8.0-windows\RandomPoker.GeneratedMSBuildEditorConfig.editorconfig
+D:\My Works\C#\C#_Practice\GitRepos\Windows Forms Apps\RandomPoker\obj\Debug\net8.0-windows\RandomPoker.AssemblyInfoInputs.cache
+D:\My Works\C#\C#_Practice\GitRepos\Windows Forms Apps\RandomPoker\obj\Debug\net8.0-windows\RandomPoker.AssemblyInfo.cs
+D:\My Works\C#\C#_Practice\GitRepos\Windows Forms Apps\RandomPoker\obj\Debug\net8.0-windows\RandomPoker.csproj.CoreCompileInputs.cache
+D:\My Works\C#\C#_Practice\GitRepos\Windows Forms Apps\RandomPoker\obj\Debug\net8.0-windows\RandomPoker.sourcelink.json
+D:\My Works\C#\C#_Practice\GitRepos\Windows Forms Apps\RandomPoker\obj\Debug\net8.0-windows\RandomPoker.dll
+D:\My Works\C#\C#_Practice\GitRepos\Windows Forms Apps\RandomPoker\obj\Debug\net8.0-windows\refint\RandomPoker.dll
+D:\My Works\C#\C#_Practice\GitRepos\Windows Forms Apps\RandomPoker\obj\Debug\net8.0-windows\RandomPoker.pdb
+D:\My Works\C#\C#_Practice\GitRepos\Windows Forms Apps\RandomPoker\obj\Debug\net8.0-windows\RandomPoker.genruntimeconfig.cache
+D:\My Works\C#\C#_Practice\GitRepos\Windows Forms Apps\RandomPoker\obj\Debug\net8.0-windows\ref\RandomPoker.dll

@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = RandomPoker
-build_property.ProjectDir = D:\My Works\C#\C#_Practice\Windows Forms Apps (Local)\RandomPoker\
+build_property.ProjectDir = D:\My Works\C#\C#_Practice\GitRepos\Windows Forms Apps\RandomPoker\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
