@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RandomPoker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+085e05c92bcaf11685354af6857cb9bc80af08ae")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a82bfcc21adc18c7324ef88284182d3d1fa88853")]
 [assembly: System.Reflection.AssemblyProductAttribute("RandomPoker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RandomPoker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\My Works\\C#\\C#_Practice\\Windows Forms Apps (Local)\\RandomPoker\\RandomPoker.csproj",
+      "projectUniqueName": "D:\\My Works\\C#\\C#_Practice\\GitRepos\\Windows Forms Apps\\RandomPoker\\RandomPoker.csproj",
       "projectName": "RandomPoker",
-      "projectPath": "D:\\My Works\\C#\\C#_Practice\\Windows Forms Apps (Local)\\RandomPoker\\RandomPoker.csproj",
+      "projectPath": "D:\\My Works\\C#\\C#_Practice\\GitRepos\\Windows Forms Apps\\RandomPoker\\RandomPoker.csproj",
       "packagesPath": "C:\\Users\\alext\\.nuget\\packages\\",
-      "outputPath": "D:\\My Works\\C#\\C#_Practice\\Windows Forms Apps (Local)\\RandomPoker\\obj\\",
+      "outputPath": "D:\\My Works\\C#\\C#_Practice\\GitRepos\\Windows Forms Apps\\RandomPoker\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alext\\AppData\\Roaming\\NuGet\\NuGet.Config",
