@@ -1,0 +1,14 @@
+D:\Tools\Visual Studio Code\CsharpPorjects\InsertionSortPresentation\bin\Debug\net8.0\InsertionSortPresentation.exe
+D:\Tools\Visual Studio Code\CsharpPorjects\InsertionSortPresentation\bin\Debug\net8.0\InsertionSortPresentation.deps.json
+D:\Tools\Visual Studio Code\CsharpPorjects\InsertionSortPresentation\bin\Debug\net8.0\InsertionSortPresentation.runtimeconfig.json
+D:\Tools\Visual Studio Code\CsharpPorjects\InsertionSortPresentation\bin\Debug\net8.0\InsertionSortPresentation.dll
+D:\Tools\Visual Studio Code\CsharpPorjects\InsertionSortPresentation\bin\Debug\net8.0\InsertionSortPresentation.pdb
+D:\Tools\Visual Studio Code\CsharpPorjects\InsertionSortPresentation\obj\Debug\net8.0\InsertionSortPresentation.GeneratedMSBuildEditorConfig.editorconfig
+D:\Tools\Visual Studio Code\CsharpPorjects\InsertionSortPresentation\obj\Debug\net8.0\InsertionSortPresentation.AssemblyInfoInputs.cache
+D:\Tools\Visual Studio Code\CsharpPorjects\InsertionSortPresentation\obj\Debug\net8.0\InsertionSortPresentation.AssemblyInfo.cs
+D:\Tools\Visual Studio Code\CsharpPorjects\InsertionSortPresentation\obj\Debug\net8.0\InsertionSortPresentation.csproj.CoreCompileInputs.cache
+D:\Tools\Visual Studio Code\CsharpPorjects\InsertionSortPresentation\obj\Debug\net8.0\InsertionSortPresentation.dll
+D:\Tools\Visual Studio Code\CsharpPorjects\InsertionSortPresentation\obj\Debug\net8.0\refint\InsertionSortPresentation.dll
+D:\Tools\Visual Studio Code\CsharpPorjects\InsertionSortPresentation\obj\Debug\net8.0\InsertionSortPresentation.pdb
+D:\Tools\Visual Studio Code\CsharpPorjects\InsertionSortPresentation\obj\Debug\net8.0\InsertionSortPresentation.genruntimeconfig.cache
+D:\Tools\Visual Studio Code\CsharpPorjects\InsertionSortPresentation\obj\Debug\net8.0\ref\InsertionSortPresentation.dll
