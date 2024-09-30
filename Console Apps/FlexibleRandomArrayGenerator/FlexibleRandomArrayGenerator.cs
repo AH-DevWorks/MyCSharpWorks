@@ -1,4 +1,4 @@
-﻿namespace FlexibleRandomArrayGenerator;
+namespace FlexibleRandomArrayGenerator;
 
 class Program
 {
@@ -8,7 +8,7 @@ class Program
         Console.WriteLine("Plese enter 3 numbers:");
         Console.WriteLine("1) Array Length | 2) Maximum Value | 3) Minimum Value");
         Console.WriteLine("Note: If Max < Min, they will be swapped automatically.");
-
+        
         UserInput(ref inputArray);
 
         var outputArray = SetRndNum(inputArray[0], inputArray[1], inputArray[2]);
