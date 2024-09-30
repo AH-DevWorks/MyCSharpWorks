@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "D:\\My Works\\C#\\C#_Practice\\GitRepos\\Windows Forms Apps\\Blackjack\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4FDA913A-93B9-4AF1-BF90-A3DB2D2FBD57}|Blackjack.csproj|D:\\My Works\\C#\\C#_Practice\\GitRepos\\Windows Forms Apps\\Blackjack\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{4FDA913A-93B9-4AF1-BF90-A3DB2D2FBD57}|Blackjack.csproj|d:\\my works\\c#\\c#_practice\\gitrepos\\windows forms apps\\blackjack\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4FDA913A-93B9-4AF1-BF90-A3DB2D2FBD57}|Blackjack.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "D:\\My Works\\C#\\C#_Practice\\GitRepos\\Windows Forms Apps\\Blackjack\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAQwF8AAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAgwAwAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-22T04:00:31.88Z",
               "EditorCaption": ""
