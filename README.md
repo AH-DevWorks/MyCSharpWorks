@@ -5,13 +5,13 @@
    + 每個專案都展示了不同的 C# 概念和技術，反映了我個人的學習和技能成長歷程。
 
 
-+ ***以下各專案內容及說明整理中_20240918***
++ ***以下各專案內容及說明整理中_20241006***
 
 ---
 
 ## 專案列表
 
-+ ### Windows Forms應用程式
++ ### Windows Forms Apps | 使用者界面應用程式
    1. [專案名稱 1](./項目1連結)
       - 簡述
       - 使用的主要技術/概念
@@ -27,11 +27,15 @@
       - 使用的主要技術/概念
       - 完成日期：YYYY-MM-DD
 
-+ ### 主控台應用程式
-   1. [專案名稱 1](./項目1連結)
-      - 簡述
-      - 使用的主要技術/概念
-      - 完成日期：YYYY-MM-DD
++ ### Console Apps | 主控台應用程式
+   1. [MatrixTranspose](./項目1連結)
+      - 首先讓使用者輸入矩陣的列數(m)與行數(n)，亦即使用者要創建的【矩陣A】將有m×n個元素；接著使用者依序輸入m×n個元素值（皆為整數）。此程式會輸出【矩陣A】及其【轉置(Transpose)矩陣A^T】的內容。
+      - 使用的主要技術/概念：
+         - 二維陣列操作 (2D Array Manipulation)
+         - 輸入驗證與錯誤處理 (Input Validation and Error Handling)
+         - 矩陣轉置 - 以雙重for迴圈實現 (Matrix Transposition using Nested for loops)
+      - 完成日期：2024/10/06
+      - [備註]本練習參考自Computer Skills Foundation之「程式設計：資料結構 C#範例試卷」: https://www.tqcplus.org.tw/CertificateDetail.aspx?CODE=8waKzIlt/zHpD14ldalaKw==
 
 
 ## 主要使用語言：
@@ -85,4 +89,4 @@
 
 
 *首次建立：[2024/09/18]*  
-*最後更新: [==]*
+*最後更新: [2024/10/06]*
