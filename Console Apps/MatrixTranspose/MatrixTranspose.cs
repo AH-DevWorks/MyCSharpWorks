@@ -19,20 +19,16 @@ class Program
         
         for(int i = 0; i < m; i++)
         {
-            for(int j = 0; j < n; j++)
+            for(int j = 0; j < n;)
             {
                 if(int.TryParse(Console.ReadLine(),out int k))
                 {
                     matrixA[i,j] = k;
                     msg += $"{k}";
-                    if(j != n - 1) msg +=" ";
+                    if(j != n - 1) msg += " ";
+                    j++;
                 }
-                else
-                {
-                    j = Math.Max(0,j--);
-                    continue;
-                }
-            }」
+            }
             msg +="]\n";
             if(i != m - 1) msg+="[";
         }

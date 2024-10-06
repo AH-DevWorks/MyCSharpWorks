@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\MSI\\.nuget\\packages\\": {}
+    "C:\\Users\\alext\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Tools\\Visual Studio Code\\MatrixTranspose\\MatrixTranspose.csproj",
+      "projectUniqueName": "D:\\My Works\\C#\\C#_Practice\\GitRepos\\Console Apps\\MatrixTranspose\\MatrixTranspose.csproj",
       "projectName": "MatrixTranspose",
-      "projectPath": "D:\\Tools\\Visual Studio Code\\MatrixTranspose\\MatrixTranspose.csproj",
-      "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
-      "outputPath": "D:\\Tools\\Visual Studio Code\\MatrixTranspose\\obj\\",
+      "projectPath": "D:\\My Works\\C#\\C#_Practice\\GitRepos\\Console Apps\\MatrixTranspose\\MatrixTranspose.csproj",
+      "packagesPath": "C:\\Users\\alext\\.nuget\\packages\\",
+      "outputPath": "D:\\My Works\\C#\\C#_Practice\\GitRepos\\Console Apps\\MatrixTranspose\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\alext\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -67,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
