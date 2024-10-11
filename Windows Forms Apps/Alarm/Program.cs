@@ -1,4 +1,4 @@
-namespace Alarm
+﻿namespace Alarm
 {
     internal static class Program
     {
