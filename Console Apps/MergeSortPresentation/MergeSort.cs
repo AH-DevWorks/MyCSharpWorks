@@ -53,10 +53,10 @@ class Program
         for (int i = 0; i < medium; i++) leftList.Add(originalList[i]);
         for (int i = medium; i < originalList.Count; i++) rightList.Add(originalList[i]);
 
-        // List<int> sortedLeftList = DivideAndConquer(leftList);
-        // List<int> sortedRightList = DivideAndConquer(rightList);
-        leftList = DivideAndConquer(leftList);
-        rightList = DivideAndConquer(leftList);
+        List<int> sortedLeftList = DivideAndConquer(leftList);
+        List<int> sortedRightList = DivideAndConquer(rightList);
+        //leftList = DivideAndConquer(leftList);
+        //rightList = DivideAndConquer(leftList);
 
         return Merge(sortedLeftList, sortedRightList);
     }

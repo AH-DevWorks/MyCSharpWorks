@@ -21,8 +21,8 @@ namespace Alarm
             bt3Snooze.Enabled = false;
 
             timer1.Enabled = false;
-            timer1.Interval = 1000;     // ±Ò°Ê«á¨C1¬í§PÂ_¤@¦¸
-            timer2.Enabled = true;      // ²{¦b®É¶¡­p®É¾¹¡]±`¶}¡^
+            timer1.Interval = 1000;     // å•Ÿå‹•å¾Œæ¯1ç§’åˆ¤æ–·ä¸€æ¬¡
+            timer2.Enabled = true;      // ç¾åœ¨æ™‚é–“è¨ˆæ™‚å™¨ï¼ˆå¸¸é–‹ï¼‰
             timer2.Interval = 1000;
         }
 
@@ -41,7 +41,7 @@ namespace Alarm
         private void button1Set_Click(object sender, EventArgs e)
         {
             timer1.Enabled = true;
-            // Á×§K¨Ï¥ÎªÌ­«½Æ¿ï¨ú
+            // é¿å…ä½¿ç”¨è€…é‡è¤‡é¸å–
             button1Set.Enabled = false;
             bt2Reset.Enabled = false;
             bt3Snooze.Enabled = false;
@@ -79,8 +79,8 @@ namespace Alarm
 
         private void timer2_Tick(object sender, EventArgs e)
         {
-            timeNow = DateTime.Now.ToString("yyyy¦~MM¤ëdd¤é(ddd) HH:mm:ss");
-            label3TimeNow.Text = $"²{¦b®É¶¡¡G\t{timeNow}";
+            timeNow = DateTime.Now.ToString("yyyyå¹´MMæœˆddæ—¥(ddd) HH:mm:ss");
+            label3TimeNow.Text = $"ç¾åœ¨æ™‚é–“ï¼š\t{timeNow}";
         }
 
         private void bt3Postpone_Click(object sender, EventArgs e)
