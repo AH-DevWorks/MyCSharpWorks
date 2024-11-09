@@ -5,13 +5,18 @@
    + 每個專案都展示了不同的 C# 概念和技術，反映了我個人的學習和技能成長歷程。
 
 
+<<<<<<< HEAD
 + ***以下各專案內容及說明整理中_20241026***
+=======
++ ***以下各專案內容及說明整理中_20241006***
+>>>>>>> 2b16398e09419178607319a44ba6822400cd7e56
 
 ---
 
 ## 專案列表
 
 + ### Windows Forms Apps | 使用者界面應用程式
+<<<<<<< HEAD
    1. [Alarm](./項目1連結)
       - **定時鬧鈴提醒程式**
         - 程式介面即時顯示目前時間：yyyy年MM月dd日(週x) HH:mm:ss
@@ -62,6 +67,19 @@
         - 改以DataGridView而非三組Label顯示清單，美化介面。
 
    4. [專案名稱 3](./項目3連結)
+=======
+   1. [專案名稱 1](./項目1連結)
+      - 簡述
+      - 使用的主要技術/概念
+      - 完成日期：YYYY-MM-DD
+
+   2. [專案名稱 2](./項目2連結)
+      - 簡述
+      - 使用的主要技術/概念
+      - 完成日期：YYYY-MM-DD
+
+   3. [專案名稱 3](./項目3連結)
+>>>>>>> 2b16398e09419178607319a44ba6822400cd7e56
       - 簡述
       - 使用的主要技術/概念
       - 完成日期：YYYY-MM-DD
@@ -74,10 +92,17 @@
          - 輸入驗證與錯誤處理 (Input Validation and Error Handling)
          - 矩陣轉置 - 以雙重for迴圈實現 (Matrix Transposition using Nested for loops)
       - 完成日期：2024/10/06
+<<<<<<< HEAD
       - [備註]本練習參考自Computer Skills Foundation之 「[程式設計：資料結構 C#範例試卷](https://www.tqcplus.org.tw/CertificateDetail.aspx?CODE=8waKzIlt/zHpD14ldalaKw==)」
 
 
 ## 主要使用語言／開發框架：
+=======
+      - [備註]本練習參考自Computer Skills Foundation之「程式設計：資料結構 C#範例試卷」: https://www.tqcplus.org.tw/CertificateDetail.aspx?CODE=8waKzIlt/zHpD14ldalaKw==
+
+
+## 主要使用語言：
+>>>>>>> 2b16398e09419178607319a44ba6822400cd7e56
 + C# 
 + .NET Framework / .NET Core
 + Windows Forms
@@ -87,6 +112,7 @@
 
 ### 書籍
 
+<<<<<<< HEAD
 1. Troelsen, A., Japikse, P. (2022). *Pro C# 10 with .NET 6: Foundational Principles and Practices in Programming*. 美國: Apress.
 
 2. 蔡文龍, 張志成, 何嘉益, 張力元, 歐志信（2022）.*《Visual C# 2022基礎必修課》*. 碁峰出版社. ISBN：9786263242296
@@ -98,6 +124,16 @@
 1. Udemy - [Complete C# Course – Beginner to Expert](https://www.udemy.com/course/complete-c-sharp-programming-course-beginner-to-expert/)
 
 2. 
+=======
+1. 蔡文龍, 張志成, 何嘉益, 張力元, 歐志信（2022）.*《Visual C# 2022基礎必修課》*. 碁峰出版社. ISBN：9786263242296
+
+2. 李馨（2022）. *《從零開始學Visual C# 2022 程式設計》*. 博碩文化出版社. ISBN：9786263336742
+
+### 線上課程
+
+1. Udemy - [課程名稱](課程連結)
+   + `簡述` 
+>>>>>>> 2b16398e09419178607319a44ba6822400cd7e56
 
 ### 線上資源
 
@@ -131,4 +167,8 @@
 
 
 *首次建立：[2024/09/18]*  
+<<<<<<< HEAD
 *最後更新: [2024/10/26]*
+=======
+*最後更新: [2024/10/06]*
+>>>>>>> 2b16398e09419178607319a44ba6822400cd7e56

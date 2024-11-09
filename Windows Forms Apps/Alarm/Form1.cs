@@ -10,6 +10,7 @@ namespace Alarm
             CenterToScreen();
         }
 
+<<<<<<< HEAD
         private const int MIN_TIME_SECONDS = 15;
         private const int MAX_DAYS_AHEAD = 7;
         const int SNOOZE_MINUTES = 1;
@@ -17,6 +18,12 @@ namespace Alarm
         {
             dateTimePicker1.MinDate = DateTime.Now.AddSeconds(MIN_TIME_SECONDS);
             dateTimePicker1.MaxDate = DateTime.Today.AddDays(MAX_DAYS_AHEAD);
+=======
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            dateTimePicker1.MinDate = DateTime.Now.AddSeconds(15);
+            dateTimePicker1.MaxDate = DateTime.Today.AddDays(7);
+>>>>>>> 2b16398e09419178607319a44ba6822400cd7e56
             dateTimePicker1.ShowUpDown = true;
 
             button1Set.Enabled = true;
@@ -55,7 +62,11 @@ namespace Alarm
 
         private void bt2Reset_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             dateTimePicker1.Value = DateTime.Now.AddSeconds(MIN_TIME_SECONDS);
+=======
+            dateTimePicker1.Value = DateTime.Now.AddSeconds(15);
+>>>>>>> 2b16398e09419178607319a44ba6822400cd7e56
             textBox1.Clear();
             button1Set.Enabled = true;
             bt2Reset.Enabled = false;

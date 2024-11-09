@@ -57,12 +57,15 @@ namespace ArraySongSearching
         private void textBox1Search_TextChanged(object sender, EventArgs e)
         {
             textBox1Search.ForeColor = Color.Black;
+<<<<<<< HEAD
             if (string.IsNullOrEmpty(textBox1Search.Text))
             {
                 LabelsClear();
                 SortByRanking();
                 ShowList();
             }
+=======
+>>>>>>> 2b16398e09419178607319a44ba6822400cd7e56
         }
 
         private void button1Search_Click(object sender, EventArgs e)
