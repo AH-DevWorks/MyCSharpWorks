@@ -24,3 +24,6 @@ bld/
 
 # Photoshop Files(to edit sample screenshots)
 *.psd
+
+#Repository Backup
+repo-cleanup/
