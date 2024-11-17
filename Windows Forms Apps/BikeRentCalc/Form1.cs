@@ -2,59 +2,52 @@ namespace BikeRentCalc
 {
     public partial class Form1 : Form
     {
-        public const int rentWithin240min = 10;
-        public const int rentDuring241to480min = 20;
-        public const int rentOver481min = 30;
+        public const int rentWithin240min = 10;             //<=240min - $10/ 30min
+        public const int rentDuring241to480min = 20;   //241~480min - $20/ 30min
+        public const int rentOver481min = 40;                //481~900min - $40/30min
         public const int basicRateTime = 240;
         public const int standardRateTime = 480;
+        public const int maxRentTime = 900;
         public const int rentTimeUnit = 30;
         public const int bonusTimeUnit = 30;
-        public int rentTime = 0;
         public decimal rentCost = 0M;
         public Form1()
         {
             InitializeComponent();
+            this.Text = "單車租賃費用助手｜Bike Rental Fee Assistant";
             textBox1.KeyPress += textBox1_KeyPress;
         }
 
-        private void RentCalculation()
+        private void RentCalculation(decimal rentTime)
         {
-            decimal tt = (rentTime - bonusTimeUnit) / rentTimeUnit;
-            if (rentTime < basicRateTime && rentTime > bonusTimeUnit)
+            if (rentTime <= bonusTimeUnit)
             {
-                if (rentTime % 30 != 0) tt++;
-                rentCost = tt * rentWithin240min;
-                lb3Show();
+                label2.ForeColor = Color.Blue;
+                label2.Text = $"本次租借時間30分鐘內，免費！";
             }
-            else if (rentTime <= standardRateTime && rentTime > basicRateTime)
+            else if (rentTime <= basicRateTime && rentTime > bonusTimeUnit)
             {
-                if (rentTime % 30 != 0) tt++;
-                rentCost = tt * rentDuring241to480min;
-                lb3Show();
+                rentCost = Math.Ceiling((rentTime - bonusTimeUnit) / rentTimeUnit) * rentWithin240min;
+                lb2Show();
             }
-            else if (rentTime < 0)
+            else if (rentTime > basicRateTime && rentTime <= standardRateTime)
             {
-                ShowError("數值不可小於0 ");
+                rentCost = (basicRateTime - bonusTimeUnit) / rentTimeUnit * rentWithin240min + Math.Ceiling((rentTime - basicRateTime) / rentTimeUnit) * rentDuring241to480min;
+                lb2Show();
             }
-            else if(rentTime > standardRateTime && rentTime <= 900)
+            else if (rentTime > standardRateTime && rentTime <= maxRentTime)
             {
-                if (rentTime % 30 != 0) tt++;
-                rentCost = tt * rentOver481min;
-                lb3Show();
-            }
-            else if(rentTime >= 0 && rentTime <= bonusTimeUnit)
-            {
-                tt = 0;
-                rentCost = tt * rentWithin240min;
-                lb3Show();
+                rentCost = (basicRateTime - bonusTimeUnit) / rentTimeUnit * rentWithin240min + (standardRateTime - basicRateTime) / rentTimeUnit * rentDuring241to480min + Math.Ceiling((rentTime - standardRateTime) / rentTimeUnit) * rentOver481min;
+                lb2Show();
             }
             else
             {
-                ShowError("超時(15hr)，請洽客服人員。");
+                ShowMessage("錯誤：超時(15hr)，請洽客服人員。");
             }
         }
-        private void lb3Show()
+        private void lb2Show()
         {
+            label2.ForeColor = Color.Blue;
             label2.Text = $"本次租借費用為：{rentCost.ToString("C0")} ";
             textBox1.Focus();
             textBox1.SelectAll();
@@ -70,34 +63,50 @@ namespace BikeRentCalc
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (int.TryParse(textBox1.Text, out rentTime))
+            decimal rentTime = 0;
+            if (decimal.TryParse(textBox1.Text, out rentTime))
             {
-                RentCalculation();
+                if (rentTime > 0)
+                {
+                    RentCalculation(rentTime);
+                }
+                else
+                {
+                    ShowMessage("錯誤：僅限輸入大於0的整數。");
+                }
             }
             else
             {
-                ShowError("僅限輸入大於0的整數。");
+                ShowMessage("錯誤：僅限輸入大於0的整數。");
             }
         }
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if(e.KeyChar == (char)Keys.Enter)
+            decimal rentTime = 0;
+            if (e.KeyChar == (char)Keys.Enter)
             {
                 e.Handled = true;
-                if (int.TryParse(textBox1.Text, out rentTime))
+                if (decimal.TryParse(textBox1.Text, out rentTime))
                 {
-                    RentCalculation();
+                    if (rentTime > 0)
+                    {
+                        RentCalculation(rentTime);
+                    }
+                    else
+                    {
+                        ShowMessage("錯誤：僅限輸入大於0的整數。");
+                    }
                 }
                 else
                 {
-                    ShowError("僅限輸入大於0的整數。");
+                    ShowMessage("錯誤：僅限輸入大於0的整數。");
                 }
             }
         }
-        private void ShowError(string errorText)
+        private void ShowMessage(string msg)
         {
             label2.ForeColor = Color.Red;
-            label2.Text = $"錯誤：{errorText}";
+            label2.Text = msg;
             textBox1.Focus();
             textBox1.SelectAll();
         }
