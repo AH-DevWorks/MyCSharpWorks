@@ -64,7 +64,7 @@
         - 改以DataGridView而非三組Label顯示清單，美化介面。
 
    4. [BikeRentCalc](./項目1連結)
-      - **單車租賃計費程式**
+      - **共享單車租賃計費程式**
         - 預設為「共享單車月」——單次租借時間≦30分鐘者免費。
         - 費率（未滿30分鐘以30分鐘計）：
           - 單次租借多於30分鐘且少於240分鐘者，超出30分鐘的分鐘數以10元/30分鐘計算。
@@ -81,10 +81,25 @@
       - 更新日期：2024-11-17
         - 修正Logical Error
 
-   5. [專案名稱 1](./項目1連結)
-      - 簡述
+   5. [Blackjack - 5-Card Charlie](./項目1連結)
+      - **21點遊戲——5-Card Charlie**
+        - 5-Card Charlie（五張牌查理／過五關）
+        - 【規則】
+          - 玩家拿到初始2張手牌後，再連續叫牌3次，手牌達到5張且點數總和沒超過21點(爆牌)者獲勝。
+          - A可計為1點或11點。
       - **使用的主要技術/概念**
-      - 完成日期：YYYY-MM-DD
+        - 每次遊戲都Random生成初始2張手牌及後續的每次叫牌。
+        - 以5個PictureBox分別直觀顯示手牌牌面。
+        - 按下「要牌(Hit)」按鈕後隨機發牌並顯示目前手牌點數總和。
+        - (v1.05更新 - 使用LINQ) 若抽到Ace，程式自動判斷以1點或11點計算。
+      - 完成日期：2024-09-22
+      - 更新日期：2024-11-30
+        - 規則完善：若抽到Ace，程式會自動判斷以1點或11點計算。
+        - 新增一Label，將遊戲名稱與點數顯示/遊戲進度分開呈現。
+        - 新增爆牌時發出Beep提示音。
+      - <span style="color: darkorange">未來可改良處：</span>
+      - 功能改善以期貼近真實遊戲（如放入兩副牌組等）。
+      - 可詳見資料夾內`ROADMAP.md`說明。
 
    6. [專案名稱 1](./項目1連結)
       - 簡述
@@ -118,12 +133,9 @@
       - [備註]本練習參考自Computer Skills Foundation之 「[程式設計：資料結構 C#範例試卷](https://www.tqcplus.org.tw/CertificateDetail.aspx?CODE=8waKzIlt/zHpD14ldalaKw==)」
 
 
-## 主要使用語言／開發框架：
-=======
-      - [備註]本練習參考自Computer Skills Foundation之「程式設計：資料結構 C#範例試卷」: https://www.tqcplus.org.tw/CertificateDetail.aspx?CODE=8waKzIlt/zHpD14ldalaKw==
+## 主要使用語言／開發框架
 
-
-## 主要使用語言：
+## 主要使用
 + C# 
 + .NET Framework / .NET Core
 + Windows Forms
@@ -143,19 +155,10 @@
 1. Udemy - [Complete C# Course – Beginner to Expert](https://www.udemy.com/course/complete-c-sharp-programming-course-beginner-to-expert/)
 
 2. 
-=======
-1. 蔡文龍, 張志成, 何嘉益, 張力元, 歐志信（2022）.*《Visual C# 2022基礎必修課》*. 碁峰出版社. ISBN：9786263242296
-
-2. 李馨（2022）. *《從零開始學Visual C# 2022 程式設計》*. 博碩文化出版社. ISBN：9786263336742
-
-### 線上課程
-
-1. Udemy - [課程名稱](課程連結)
-   + `簡述` 
 
 ### 線上資源
 
-1. [Microsoft Learn - C# 教學課程](https://learn.microsoft.com/zh-tw/dotnet/csharp/)
+1. [Microsoft Learn - C#](https://learn.microsoft.com/zh-tw/dotnet/csharp/)
    - Microsoft官方提供之 C# 學習課程。
    - **已完成之課程模組請見：[`link`]**
 
