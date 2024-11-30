@@ -40,6 +40,7 @@
             button2Restart = new Button();
             label1 = new Label();
             label2 = new Label();
+            label3 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -133,7 +134,7 @@
             // label1
             // 
             label1.Font = new Font("源樣明體 TTF Medium", 12.0542984F, FontStyle.Bold, GraphicsUnit.Point, 136);
-            label1.ForeColor = Color.FromArgb(237, 84, 102);
+            label1.ForeColor = Color.FromArgb(255, 128, 0);
             label1.Location = new Point(378, 625);
             label1.Name = "label1";
             label1.Size = new Size(1407, 94);
@@ -152,11 +153,23 @@
             label2.TabIndex = 8;
             label2.Text = "Image by brgfx on Freepik";
             // 
+            // label3
+            // 
+            label3.Font = new Font("源樣明體 TTF Medium", 12.0542984F, FontStyle.Bold, GraphicsUnit.Point, 136);
+            label3.ForeColor = Color.FromArgb(237, 84, 102);
+            label3.Location = new Point(378, 707);
+            label3.Name = "label3";
+            label3.Size = new Size(1001, 94);
+            label3.TabIndex = 9;
+            label3.Text = "【點數總和】";
+            label3.TextAlign = ContentAlignment.MiddleLeft;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(17F, 36F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1832, 851);
+            Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(button2Restart);
@@ -190,5 +203,6 @@
         private Button button2Restart;
         private Label label1;
         private Label label2;
+        private Label label3;
     }
 }

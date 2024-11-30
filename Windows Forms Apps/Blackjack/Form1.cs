@@ -9,7 +9,7 @@ namespace Blackjack
             CenterToScreen();
         }
         PictureBox[] pokerpic = new PictureBox[5];
-        int[] cardNumber = { 0, 0, 0, 0, 0 };
+        int[] cardArray = { 0, 0, 0, 0, 0 };
         int numSum = 0;
         int times = 0;
         Random random = new Random();
@@ -31,7 +31,7 @@ namespace Blackjack
 
                 if (times == 3 && numSum <= 21)
                 {
-                    label1.Text += "　恭喜過五關！";
+                    label3.Text += "　恭喜過五關！";
                     button1Hit.Enabled = false;
                 }
             }
@@ -39,27 +39,25 @@ namespace Blackjack
 
         public void Calculate()
         {
-            numSum = 0;
-            for (int i = 0; i < cardNumber.Length; i++)
+            int aces = cardArray.Count(c => c == 1);  //計算A的張數
+            numSum = cardArray.Sum(s => Math.Min(s, 10));  //先將A當成1點
+            //若有A，且A改計為11點仍不會bust，則累加。
+            while (aces > 0 && numSum + 10 <= 21)
             {
-                if (cardNumber[i] > 10)
-                {
-                    numSum += 10;
-                }
-                else
-                {
-                    numSum += cardNumber[i];
-                }
+                numSum += 10;
+                aces--;
             }
+
             if (numSum > 21)
             {
-                label1.Text = $"總和{numSum}點，Bust！";
+                Console.Beep();
+                label3.Text = $"總和{numSum}點，Bust！";
                 button1Hit.Enabled = false;
                 times = 0;
             }
             else
             {
-                label1.Text = $"目前總和：{numSum}點";
+                label3.Text = $"目前總和：{numSum}點";
             }
         }
 
@@ -70,22 +68,23 @@ namespace Blackjack
 
         private void InitializeOrResetCards()
         {
+            label3.Text = " ";
+            numSum = 0;
             button1Hit.Enabled = true;
-            Array.Clear(cardNumber);
-            cardNumber[0] = random.Next(1, 14);
-            cardNumber[1] = random.Next(1, 14);
-            pokerpic[0].Image = imageList1.Images[cardNumber[0]];
-            pokerpic[1].Image = imageList1.Images[cardNumber[1]];
-            numSum = cardNumber[0] + cardNumber[1];
+            Array.Clear(cardArray);
+            cardArray[0] = random.Next(1, 14);
+            cardArray[1] = random.Next(1, 14);
+            pokerpic[0].Image = imageList1.Images[cardArray[0]];
+            pokerpic[1].Image = imageList1.Images[cardArray[1]];
+            Calculate();
             for (int i = 2; i < pokerpic.Length; i++) pokerpic[i].Image = imageList1.Images[0];
-            label1.Text = $"目前總和：{numSum}點";
             times = 0;
         }
 
         private void DealCard(int cardIndex)
         {
-            cardNumber[cardIndex] = random.Next(1, 14);
-            pokerpic[cardIndex].Image = imageList1.Images[cardNumber[cardIndex]];
+            cardArray[cardIndex] = random.Next(1, 14);
+            pokerpic[cardIndex].Image = imageList1.Images[cardArray[cardIndex]];
             Calculate();
         }
     }

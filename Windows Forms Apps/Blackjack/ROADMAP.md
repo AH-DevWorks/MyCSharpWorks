@@ -2,14 +2,12 @@
 
 ## 功能完善｜Upcoming Features 
 
+### v1.05已更新_20241130
+- ~~加入「A可計為1點或11點」的21點規則~~
+- ~~Add more Blackjack rules: Ace can count as 1 or 11 points.~~
 
 ### v1.1: 完善遊戲規則
 ### v1.1: Refine Game Rules (Planned)
-
-
-- 加入更多21點規則（如A可計為1點或11點）
-- Add more Blackjack rules (e.g., Ace can count as 1 or 11 points)
-
 - 真實「過五關」遊戲通常使用兩副牌
 	- 完整放入兩副四種花色之牌卡
 	- 同一張卡（花色與數值相同）之牌面最多出現2次
