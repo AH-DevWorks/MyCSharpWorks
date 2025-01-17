@@ -6,7 +6,7 @@
 
 
 <<<<<<< HEAD
-+ ***以下各專案內容及說明整理中_20241026***
++ ***以下各專案內容及說明整理中_20250117***
 =======
 
 ---
@@ -123,7 +123,7 @@
       - 完成日期：YYYY-MM-DD
 
 + ### Console Apps | 主控台應用程式
-   1. [MatrixTranspose](./項目1連結)
+   1. [MatrixTranspose](https://github.com/AH-CSharpEditor/MyCSharpWorks/tree/05086b326f30a28721c093945da6aa277c2a0b62/Console%20Apps/MatrixTranspose)
       - 首先讓使用者輸入矩陣的列數(m)與行數(n)，亦即使用者要創建的【矩陣A】將有m×n個元素；接著使用者依序輸入m×n個元素值（皆為整數）。此程式會輸出【矩陣A】及其【轉置(Transpose)矩陣A^T】的內容。
       - 使用的主要技術/概念：
          - 二維陣列操作 (2D Array Manipulation)
@@ -131,6 +131,28 @@
          - 矩陣轉置 - 以雙重for迴圈實現 (Matrix Transposition using Nested for loops)
       - 完成日期：2024/10/06
       - [備註]本練習參考自Computer Skills Foundation之 「[程式設計：資料結構 C#範例試卷](https://www.tqcplus.org.tw/CertificateDetail.aspx?CODE=8waKzIlt/zHpD14ldalaKw==)」
+
+    2.  [DigForTreasure](./連結)
+      - **模擬線上遊戲模式的簡單尋寶遊戲**
+        - 玩家可透過輸入兩數字（代表X,Y座標）來指定要挖掘的地點。
+        - 每一格都可能是「空地」、「空的箱子」或「寶藏」；「寶藏」只有一個。
+        - 玩家必須在活動結束前成功找到寶藏。
+        - 遊戲預設每30秒顯示一次剩餘時間（天數/小時/分鐘）；當剩餘時間少於1分鐘時，則每秒顯示一次「剩餘秒數」。
+        - 當「活動結束（時間到）」或是「成功找到寶藏」後，可選擇是否匯出這次的藏寶地圖，並結束遊玩。
+      - **使用的主要技術/概念**
+        - 為了讓倒數計時不影響玩家輸入，使用 Task.Run() 來執行「倒數計時」，且跟「玩家輸入座標」的主遊戲邏輯平行運作。
+        - 採用 async/await，讓程式保持非同步的流暢性，避免阻塞。
+        - 「藏寶地圖」以二位陣列呈現，且運用Random填入每一座標位置的狀態（空地/空箱）及「唯一的寶藏」。
+        - 用try-catch來處理玩家輸入的座標，避免無效的輸入導致程式崩潰。
+        - 以if-else比對玩家輸入的座標及藏寶地圖，並顯示對應的語句。
+        - 將「生成/展示藏寶地圖」以CreateMap()和ShowMap()函式分別呈現，增加程式碼易讀性。
+        - 聚焦於程式邏輯以及技巧本身，故暫不使用Visual Studio或Unity製作UI介面，僅以簡易Console文字界面進行。
+      - 完成日期：2025-01-17
+      - <span style="color: darkorange">未來可改良處：</span>
+      - 轉以Visual Studio或Unity製作出具備UI之完整遊戲。
+      - 藏寶地圖增添「炸彈」等配置，並增加遊戲性與變化性。(例如挖到炸彈則倒數秒數減少10秒等)
+    
+    3.  
 
 
 ## 主要使用語言／開發框架
@@ -162,6 +184,11 @@
    - Microsoft官方提供之 C# 學習課程。
    - **已完成之課程模組請見：[`link`]**
 
+2. [Youtube - Bro Code](https://www.youtube.com/@BroCodez)
+   - C# tutorial for beginners
+   - 
+
+3. 
 
 ## 學習目標
 前述各項專案及學習，旨在：
@@ -186,4 +213,4 @@
 若您對任何專案感興趣或有任何問題，歡迎與我聯繫。
 
 *首次建立：[2024/09/18]*  
-*最後更新: [2024/10/26]*
+*最後更新: [2025/01/17]*
