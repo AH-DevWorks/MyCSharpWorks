@@ -1,12 +1,42 @@
 ﻿# C# 個人專案作品集
 
 ## 簡介
-   + 這個倉庫（Repository）包含了我在學習和實踐 C# 編碼過程中建立的各種小型專案。
+   + 這個倉庫（Repository）包含了我在學習和實踐 C# 過程中的參考課程、資源、建立的各種小型專案以及成果等。
    + 每個專案都展示了不同的 C# 概念和技術，反映了我個人的學習和技能成長歷程。
 
+## 主要使用語言／開發框架
 
-<<<<<<< HEAD
-+ ***以下各專案內容及說明整理中_20250117***
+## 主要使用
++ C# 
++ .NET Framework / .NET Core
++ Windows Forms
+
+## 已取得之認證
+### freeCodeCamp
+1. **[Foundational C# with Microsoft Certification Exam | 微軟基礎 C# 認證](https://www.freecodecamp.org/certification/AHCSharpEditor/foundational-c-sharp-with-microsoft)**  *[2025/02/19]* 
+
+## 學習資源
+
+### 書籍
+1. Troelsen, A., Japikse, P. (2022). *Pro C# 10 with .NET 6: Foundational Principles and Practices in Programming*. 美國: Apress.
+
+2. 蔡文龍, 張志成, 何嘉益, 張力元, 歐志信（2022）.*《Visual C# 2022基礎必修課》*. 碁峰出版社. ISBN：9786263242296
+
+### 線上課程
+
+1. Udemy - [Complete C# Course – Beginner to Expert](https://www.udemy.com/course/complete-c-sharp-programming-course-beginner-to-expert/)
+
+### 線上資源
+
+1. [Microsoft Learn - C#](https://learn.microsoft.com/zh-tw/dotnet/csharp/)
+   - Microsoft官方提供之 C# 學習課程。
+   - **已完成之課程模組請見：**
+     - **[我的Microsoft頁面](https://learn.microsoft.com/zh-tw/users/lexhuang-2093/)**
+
+2. [《Hello 演算法》](https://www.hello-algo.com/zh-hant/)
+
+
++ ***以下各專案內容及說明整理中_20250225***
 =======
 
 ---
@@ -14,7 +44,7 @@
 ## 專案列表
 
 + ### Windows Forms Apps | 使用者界面應用程式
-   1. [Alarm](./項目1連結)
+   1. [Alarm](./Windows Forms Apps/Alarm/)
       - **定時鬧鈴提醒程式**
         - 程式介面即時顯示目前時間：yyyy年MM月dd日(週x) HH:mm:ss
         - 使用者可透過控制項＆輸入欄，自行設定程式提醒的時間＆提醒訊息的內容。
@@ -34,7 +64,7 @@
         - MessageBox：時間到後，顯示使用者自行設定的訊息。
       - 完成日期：2024-09-18
 
-   2. _[Arithmometer](./項目2連結)
+   2. _[Arithmometer](./Windows Forms Apps/Arithmometer/)
       - **簡易四則運算器**
         - 於三個空格內正確填入數字1、運算符號、數字2後按下確認即可於Label顯示運算結果。
         - 若有輸入錯誤，同樣會在Label顯示錯誤原因（如填入錯誤的運算符號等）。
@@ -43,7 +73,7 @@
         - 以double變數儲存數字，以順利計算小數。
       - 完成日期：2024-08-26
 
-   3. [ArraySongSearching](./項目3連結)
+   3. [ArraySongSearching](./Windows Forms Apps/ArraySongSearching/)
       - **歌曲排行榜＆搜尋程式**
         - 程式開啟時會顯示熱門歌曲排行榜（虛構）清單，包含「排名」、「歌手名」、「曲名」。
         - 使用者可透過關鍵字（歌手或歌名）進行歌曲搜尋。
@@ -63,7 +93,7 @@
         - 將顯示Error的情況獨立一個Label避免混淆。
         - 改以DataGridView而非三組Label顯示清單，美化介面。
 
-   4. [BikeRentCalc](./項目1連結)
+   4. [BikeRentCalc](./Windows Forms Apps/BikeRentCalc/)
       - **共享單車租賃計費程式**
         - 預設為「共享單車月」——單次租借時間≦30分鐘者免費。
         - 費率（未滿30分鐘以30分鐘計）：
@@ -81,7 +111,7 @@
       - 更新日期：2024-11-17
         - 修正Logical Error
 
-   5. [Blackjack - 5-Card Charlie](./項目1連結)
+   5. [Blackjack - 5-Card Charlie](./Windows Forms Apps/Blackjack/)
       - **21點遊戲——5-Card Charlie**
         - 5-Card Charlie（五張牌查理／過五關）
         - 【規則】
@@ -101,29 +131,8 @@
       - 功能改善以期貼近真實遊戲（如放入兩副牌組等）。
       - 可詳見資料夾內`ROADMAP.md`說明。
 
-   6. [專案名稱 1](./項目1連結)
-      - 簡述
-      - **使用的主要技術/概念**
-      - 完成日期：YYYY-MM-DD
-
-=======
-   1. [專案名稱 1](./項目1連結)
-      - 簡述
-      - 使用的主要技術/概念
-      - 完成日期：YYYY-MM-DD
-
-   2. [專案名稱 2](./項目2連結)
-      - 簡述
-      - 使用的主要技術/概念
-      - 完成日期：YYYY-MM-DD
-
-   3. [專案名稱 3](./項目3連結)
-      - 簡述
-      - 使用的主要技術/概念
-      - 完成日期：YYYY-MM-DD
-
 + ### Console Apps | 主控台應用程式
-   1. [MatrixTranspose](https://github.com/AH-CSharpEditor/MyCSharpWorks/tree/05086b326f30a28721c093945da6aa277c2a0b62/Console%20Apps/MatrixTranspose)
+   1. [MatrixTranspose](./Console Apps/MatrixTranspose/)
       - 首先讓使用者輸入矩陣的列數(m)與行數(n)，亦即使用者要創建的【矩陣A】將有m×n個元素；接著使用者依序輸入m×n個元素值（皆為整數）。此程式會輸出【矩陣A】及其【轉置(Transpose)矩陣A^T】的內容。
       - 使用的主要技術/概念：
          - 二維陣列操作 (2D Array Manipulation)
@@ -132,7 +141,7 @@
       - 完成日期：2024/10/06
       - [備註]本練習參考自Computer Skills Foundation之 「[程式設計：資料結構 C#範例試卷](https://www.tqcplus.org.tw/CertificateDetail.aspx?CODE=8waKzIlt/zHpD14ldalaKw==)」
 
-    2.  [DigForTreasure](./連結)
+    2.  [DigForTreasure](./Console Apps/DigForTreasure/)
       - **模擬線上遊戲模式的簡單尋寶遊戲**
         - 玩家可透過輸入兩數字（代表X,Y座標）來指定要挖掘的地點。
         - 每一格都可能是「空地」、「空的箱子」或「寶藏」；「寶藏」只有一個。
@@ -150,45 +159,9 @@
       - 完成日期：2025-01-17
       - <span style="color: darkorange">未來可改良處：</span>
       - 轉以Visual Studio或Unity製作出具備UI之完整遊戲。
-      - 藏寶地圖增添「炸彈」等配置，並增加遊戲性與變化性。(例如挖到炸彈則倒數秒數減少10秒等)
-    
-    3.  
-
-
-## 主要使用語言／開發框架
-
-## 主要使用
-+ C# 
-+ .NET Framework / .NET Core
-+ Windows Forms
-
-
-## 學習資源
-
-### 書籍
-1. Troelsen, A., Japikse, P. (2022). *Pro C# 10 with .NET 6: Foundational Principles and Practices in Programming*. 美國: Apress.
-
-2. 蔡文龍, 張志成, 何嘉益, 張力元, 歐志信（2022）.*《Visual C# 2022基礎必修課》*. 碁峰出版社. ISBN：9786263242296
-
-3. 李馨（2022）. *《從零開始學Visual C# 2022 程式設計》*. 博碩文化出版社. ISBN：9786263336742
-
-### 線上課程
-
-1. Udemy - [Complete C# Course – Beginner to Expert](https://www.udemy.com/course/complete-c-sharp-programming-course-beginner-to-expert/)
-
-2. 
-
-### 線上資源
-
-1. [Microsoft Learn - C#](https://learn.microsoft.com/zh-tw/dotnet/csharp/)
-   - Microsoft官方提供之 C# 學習課程。
-   - **已完成之課程模組請見：[`link`]**
-
-2. [Youtube - Bro Code](https://www.youtube.com/@BroCodez)
-   - C# tutorial for beginners
-   - 
-
-3. 
+      - 藏寶地圖增添「炸彈」等配置，並增加遊戲性與變化性。(例如挖到炸彈則倒數秒數減少10秒；輸入特定數字會有彩蛋等)
+      - *待修正潛在風險*
+        - 須補足對玩家輸入數值的檢查（如輸入負值／輸入不只兩組數字／輸入非數字等情況）
 
 ## 學習目標
 前述各項專案及學習，旨在：
@@ -196,13 +169,6 @@
 - 由淺入深，深入理解 C# 語言特性
 - 持續提升程式碼品質與效率
 - 探索不同類型的應用開發（桌面、Web、Mobile等）
-- 轉職成為正式工程師
-
-## 未來計劃
-- **投身於可發揮相關技能之職場**
-- 適時補足非資工本科系所欠缺之知識與技能
-- 持續學習新的 C# 特性和最佳實踐
-- 嘗試更複雜和大型的專案
 
 ## 聯繫方式
 - LinkedIn: [`我的LinkedIn個人資料連結`]
@@ -212,5 +178,5 @@
 本倉庫內所有專案均為個人學習和展示用途。
 若您對任何專案感興趣或有任何問題，歡迎與我聯繫。
 
-*首次建立：[2024/09/18]*  
-*最後更新: [2025/01/17]*
+*首次建立：[2024-09-18]*  
+*最後更新: [2025-02-25]*

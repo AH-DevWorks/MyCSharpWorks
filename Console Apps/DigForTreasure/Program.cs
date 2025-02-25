@@ -46,15 +46,18 @@ class Program
 
         while (!isGameOver && !isTreasureFound)
         {
-            if(isGameOver) break;
+            if (isGameOver) break;
 
             Console.WriteLine("--- 請輸入要挖掘的座標:(x y) ---");
             Console.WriteLine($"*兩數字中間請以半形空格隔開*");
 
             string input = Console.ReadLine();
+
+            //待增加input檢查//
+
             try
             {
-                if(isGameOver) break;
+                if (isGameOver) break;
 
                 string[] parts = input.Split(' ');
                 int chosenRow = int.Parse(parts[0]);
@@ -74,6 +77,27 @@ class Program
                 {
                     Console.WriteLine($"……什麼都沒挖到QQ");
                 }
+
+                /*
+                if (chosenRow == 537 && chosenCol == 537)
+                {
+                    TryOverFlow();
+                }
+                else if (chosenRow == rowOfTreasure && chosenCol == columnOfTreasure)
+                {
+                    Console.WriteLine($"[!] 挖到寶藏了！！！");
+                    isTreasureFound = true;
+                }
+                else if (map[chosenRow, chosenCol] == 1)
+                {
+                    Console.WriteLine($"可惜，只挖到一個空箱子...");
+                    map[chosenRow, chosenCol] = 0;
+                }
+                else
+                {
+                    Console.WriteLine($"……什麼都沒挖到QQ");
+                }
+                */
             }
             catch
             {
@@ -143,4 +167,27 @@ class Program
             Console.WriteLine($"\n\b\b---------------------------------");
         }
     }
+
+    //可增添彩蛋（Overflow）
+    /*static void TryOverFlow()
+    {
+        try
+        {
+            Console.WriteLine($"\n嗯……？好像挖到什麼軟綿綿的東西……");
+            Task.Delay(750).Wait();
+            int max = int.MaxValue;
+            int result = checked(max++);
+        }
+        catch
+        {
+            Console.WriteLine($"「嗚咿呀哈嘎嘎！！！」\n忽然跳出一隻奇怪的...兔子(?)");
+        }
+
+        int uncheckedResult = unchecked(int.MaxValue + 1);
+        Console.WriteLine($"兔子(?)在會場大鬧，並且扔下了一張意義不明的紙條：[{uncheckedResult}]");
+        Task.Delay(1000).Wait();
+        Console.WriteLine($"\n...那個到底是怎麼回事？");
+        Task.Delay(350).Wait();
+        Console.WriteLine($"算了，還是快點回去繼續挖寶吧...\n");
+    }*/
 }
