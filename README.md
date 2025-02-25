@@ -44,7 +44,7 @@
 ## 專案列表
 
 + ### Windows Forms Apps | 使用者界面應用程式
-   1. [Alarm](./Windows Forms Apps/Alarm/)
+   1. [Alarm](./Windows%20Forms%20Apps/Alarm/)
       - **定時鬧鈴提醒程式**
         - 程式介面即時顯示目前時間：yyyy年MM月dd日(週x) HH:mm:ss
         - 使用者可透過控制項＆輸入欄，自行設定程式提醒的時間＆提醒訊息的內容。
@@ -64,7 +64,7 @@
         - MessageBox：時間到後，顯示使用者自行設定的訊息。
       - 完成日期：2024-09-18
 
-   2. _[Arithmometer](./Windows Forms Apps/Arithmometer/)
+   2. _[Arithmometer](./Windows%20Forms%20Apps/Arithmometer/)
       - **簡易四則運算器**
         - 於三個空格內正確填入數字1、運算符號、數字2後按下確認即可於Label顯示運算結果。
         - 若有輸入錯誤，同樣會在Label顯示錯誤原因（如填入錯誤的運算符號等）。
@@ -73,7 +73,7 @@
         - 以double變數儲存數字，以順利計算小數。
       - 完成日期：2024-08-26
 
-   3. [ArraySongSearching](./Windows Forms Apps/ArraySongSearching/)
+   3. [ArraySongSearching](./Windows%20Forms%20Apps/ArraySongSearching/)
       - **歌曲排行榜＆搜尋程式**
         - 程式開啟時會顯示熱門歌曲排行榜（虛構）清單，包含「排名」、「歌手名」、「曲名」。
         - 使用者可透過關鍵字（歌手或歌名）進行歌曲搜尋。
@@ -93,7 +93,7 @@
         - 將顯示Error的情況獨立一個Label避免混淆。
         - 改以DataGridView而非三組Label顯示清單，美化介面。
 
-   4. [BikeRentCalc](./Windows Forms Apps/BikeRentCalc/)
+   4. [BikeRentCalc](./Windows%20Forms%20Apps/BikeRentCalc/)
       - **共享單車租賃計費程式**
         - 預設為「共享單車月」——單次租借時間≦30分鐘者免費。
         - 費率（未滿30分鐘以30分鐘計）：
@@ -111,7 +111,7 @@
       - 更新日期：2024-11-17
         - 修正Logical Error
 
-   5. [Blackjack - 5-Card Charlie](./Windows Forms Apps/Blackjack/)
+   5. [Blackjack - 5-Card Charlie](./Windows%20Forms%20Apps/Blackjack/)
       - **21點遊戲——5-Card Charlie**
         - 5-Card Charlie（五張牌查理／過五關）
         - 【規則】
@@ -132,7 +132,7 @@
       - 可詳見資料夾內`ROADMAP.md`說明。
 
 + ### Console Apps | 主控台應用程式
-   1. [MatrixTranspose](./Console Apps/MatrixTranspose/)
+   1. [MatrixTranspose](./Console%20Apps/MatrixTranspose/)
       - 首先讓使用者輸入矩陣的列數(m)與行數(n)，亦即使用者要創建的【矩陣A】將有m×n個元素；接著使用者依序輸入m×n個元素值（皆為整數）。此程式會輸出【矩陣A】及其【轉置(Transpose)矩陣A^T】的內容。
       - 使用的主要技術/概念：
          - 二維陣列操作 (2D Array Manipulation)
@@ -141,7 +141,7 @@
       - 完成日期：2024/10/06
       - [備註]本練習參考自Computer Skills Foundation之 「[程式設計：資料結構 C#範例試卷](https://www.tqcplus.org.tw/CertificateDetail.aspx?CODE=8waKzIlt/zHpD14ldalaKw==)」
 
-    2.  [DigForTreasure](./Console Apps/DigForTreasure/)
+    2.  [DigForTreasure](./Console%20Apps/DigForTreasure/)
       - **模擬線上遊戲模式的簡單尋寶遊戲**
         - 玩家可透過輸入兩數字（代表X,Y座標）來指定要挖掘的地點。
         - 每一格都可能是「空地」、「空的箱子」或「寶藏」；「寶藏」只有一個。
