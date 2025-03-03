@@ -13,7 +13,7 @@
 
 ## 已取得之認證
 ### freeCodeCamp
-1. **[Foundational C# with Microsoft Certification Exam | 微軟基礎 C# 認證](https://www.freecodecamp.org/certification/AHCSharpEditor/foundational-c-sharp-with-microsoft)**  *[2025/02/19]* 
+1. **[Foundational C# with Microsoft Certification Exam | 微軟基礎 C# 認證]()**  *[2025/02/19]* 
 
 ## 學習資源
 
@@ -31,7 +31,7 @@
 1. [Microsoft Learn - C#](https://learn.microsoft.com/zh-tw/dotnet/csharp/)
    - Microsoft官方提供之 C# 學習課程。
    - **已完成之課程模組請見：**
-     - **[我的Microsoft頁面](https://learn.microsoft.com/zh-tw/users/lexhuang-2093/)**
+     - **[我的Microsoft頁面]()**
 
 2. [《Hello 演算法》](https://www.hello-algo.com/zh-hant/)
 
